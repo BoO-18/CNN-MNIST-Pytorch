@@ -3,6 +3,7 @@
 a simple mnist classification with pytorch using Convolutional NeuralNetwork and NeuralNetwork.
 
 ### Dependencies
+
 * python 3.6 +
 
 * pytorch 1.0 +
@@ -13,7 +14,19 @@ a simple mnist classification with pytorch using Convolutional NeuralNetwork and
 
 * matplotlib
 
+
+### How to use
+
+- Train MNIST models:
+  - For CNN model(you should choose a model in the code): `python CNN_MNIST.py` 
+  - For NN model: `python NN_MNIST.py`
+
+- Test our models:
+  - To draw a diagram for our models: `python plot_linechart.py`
+  - To test our models on realistic image: `python USE_CNN.py`
+
 ### Some results
+
 
 **Performance**
 
@@ -28,8 +41,9 @@ Results of some comparative tests.
 | CNN with 5*5 kernel + BatchNorm2d | 99.15% | 0.0001 |
 | CNN with 5*5 kernel + dropout | 98.50% | 0.0302 |
 
-<img src="Diagram.png" width="900px" height="350px"/>
+![add image](https://github.com/BoO-18/CNN-MNIST-Pytorch/raw/master/image/Diagram.png)
+
 
 **Test on realistic image**
 
-<img src="4.png" width="900px" height="350px"/>
+![add image](https://github.com/BoO-18/CNN-MNIST-Pytorch/raw/master/image/4.png)
